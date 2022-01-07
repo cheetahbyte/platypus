@@ -1,0 +1,58 @@
+body.dark {
+    background-color: #353b48 !important;
+}
+
+body.dark .title {
+   color: #dcdde1 !important;
+   z-index: 2;
+}
+
+body.dark .logo {
+    filter: grayscale(15%);
+    z-index: 1;
+}
+
+body.dark .ts-icon {
+    stroke: #dcdde1 !important;
+}
+
+body.dark .upload {
+    border-color: #dcdde1 !important;
+    background-color: #353b48 !important;
+}
+
+body.dark .footer {
+    color: #dcdde1 !important;
+}
+
+body.light .upload div {
+    background-image: url("../../assets/light-add.svg") !important;
+}
+
+
+body.dark .user-icon-login svg {
+    stroke: #dcdde1 !important;
+}
+
+body.dark .loginform h1 {
+    color: #dcdde1 !important;
+}
+
+body.light .google-login {
+    border: #353b48 solid 2px;
+    width: calc(60% - 2px);
+    height: calc(3vw - 2px);
+}
+
+body.light .loginform .github-login p {
+    color: #dcdde1 !important;
+}
+
+body.light .loginform p {
+    color: #353b48 !important;
+}
+
+body.light .loginform .login-btn {
+    background-color: #353b48 !important;
+    color: #dcdde1 !important;
+}

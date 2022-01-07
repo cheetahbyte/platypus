@@ -1,0 +1,175 @@
+/*
+Fonts
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+/* login */
+.user-icon-login {
+  position: absolute;
+  top: 5%;
+  right: 8%;
+  cursor: pointer;
+}
+
+.user-icon-login svg {
+  stroke: #5c586f;
+  width: 30px;
+  height: 30px;
+}
+
+.loginform {
+  height: 50vh;
+  width: 40vw;
+  border-radius: 7px;
+}
+
+.loginform h1 {
+    font-family: "Roboto", sans-serif;
+    color: #353b48;
+}
+
+.loginform input {
+    width: 60%;
+    height: 4.5vh;
+    margin: 10px;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid #5c586f;
+    border-radius: 7px;
+    /* font */
+    font-family: "Roboto", sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    color: #5c586f;
+}
+
+.loginform .login-btn {
+    height: 3vw;
+    width: 60%;
+    background-color: #dcdde1;
+    text-align: center;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    transition: transform ease-in-out 0.2s;
+    cursor: pointer;
+    border: none;
+    /* text */
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2vw;
+    color: #353b48;
+}
+
+.loginform .login-btn:hover{
+    transform: translateY(-5%);
+}
+
+/* github login*/
+.github-login {
+    height: 3vw;
+    width: 60%;
+    background-color: #171515;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    transition: all ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.github-login p {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-right: calc(5% + 30px);
+    width: 100%;
+    color: #dcdde1;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.github-login:hover {
+    transform: translateY(-5%);
+}
+
+svg.gh-icon  {
+    stroke: #dcdde1 !important;
+    width: 30px;
+    margin-left: 5%;
+  }
+
+/* google login */
+
+.google-login {
+    height: 3vw;
+    width: 60%;
+    background-color: #dcdde1;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    transition: transform ease-in-out 0.2s;
+    cursor: pointer;
+}
+
+.google-login p {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    margin-right: calc(4% + 30px);
+    width: 100%;
+    color: #353b48;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.google-login img {
+    height: 30px;
+    width: 30px;
+    margin-left: 4%;
+}
+
+.google-login:hover {
+    transform: translateY(-5%);
+}
+
+/* theme switcher icon*/
+.ts-icon {
+  width: 30px;
+  height: 30px;
+  stroke: #5c586f;
+}
+
+
+/* notifications */
+.notification-area {
+    background: red;
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+    height: 30vh;
+    width: 20vw;
+    z-index: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 5px;
+    pointer-events: none;
+}
+
+.notification {
+    height: 7vh;
+    width: 90%;
+    background-color: #dcdde1;
+    border-radius: 7px;
+    z-index: 1;
+    pointer-events: all;
+}
+
+.notification:hover {
+    cursor: pointer;
+}
